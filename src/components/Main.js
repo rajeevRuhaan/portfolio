@@ -6,7 +6,7 @@ const Main = () => {
   return (
     <body>
       <section className="personal-info">
-        <img src={Rajeev} alt="rajeev picture" className="app-logo" />
+        <img src={Rajeev} alt="rajeev profile" className="app-logo" />
         <div>
           <h3 className="h3-text">Hello! I'm Rajeev Sah</h3>
           <p className="h4-text">
@@ -19,9 +19,19 @@ const Main = () => {
           </p>
           <p>
             You can inpsect my code on{" "}
-            <a href="https://github.com/rajeevRuhaan">Github</a> or connect with
-            me on{" "}
-            <a href="https://www.linkedin.com/in/rajeev-sah-7a73065b/">
+            <a
+              href="https://github.com/rajeevRuhaan"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>{" "}
+            or connect with me on{" "}
+            <a
+              href="https://www.linkedin.com/in/rajeev-sah-7a73065b/"
+              target="_blank"
+              rel="noreferrer"
+            >
               LinkedIn
             </a>
           </p>
