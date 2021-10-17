@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.app {
+  text-align: center;
+  height: 100%;
+  min-height: 100%;
+  scroll-behavior: auto;
+}
+
+body {
+  height: auto;
+
+  .personal-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    font-size: 20px;
+    .app-logo {
+      border-radius: 1000px;
+      width: 50vh;
+      height: 50vh;
+      margin: 5vh 5vh;
+    }
+  }
+  a {
+    text-decoration: none;
+    color: chocolate;
+  }
+  .box {
+    background-color: grey;
+
+    .card {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-around;
+      align-items: center;
+
+      a {
+        color: black;
+      }
+    }
+  }
+  .contactme {
+    margin: 50px 0;
+    font-size: 20px;
+  }
+}
+
+/** Header Link styling **/
+
+/** Recipe page style **/
+.page {
+  font-size: 25px;
+  .image {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(200, 223, 247);
+    padding: 5px;
+    img {
+      width: 800px;
+      height: 600px;
+    }
+  }
+
+  .content-nav {
+    ul {
+      display: flex;
+      li {
+        flex: 2;
+        list-style: none;
+      }
+    }
+  }
+  .content {
+    display: flex;
+    padding-top: 5%;
+    margin-left: 10%;
+    font-size: 25px;
+
+    h1 {
+      margin-right: 50px;
+    }
+  }
+}
+.projects {
+  display: flex;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-between;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+/** Footer styling **/
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: dimgrey;
+  padding-top: 1%;
+  flex-direction: column-reverse;
+
+  p {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  .icons-list {
+    margin-top: 0;
+    background-color: #e9f0ee;
+    a {
+      margin: 0 10px;
+    }
+  }
+}
+@media (max-width: 900px) {
+  .projects {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    .publication {
+      flex-direction: column;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 568px) {
+  .personal-info {
+    flex-flow: row wrap;
+  }
+  .box {
+    height: auto;
+    .card {
+      flex-flow: column nowrap;
+    }
+  }
+  .contactme {
+    height: auto;
+  }
+  .page {
+    .image {
+      img {
+        margin: 0;
+        width: 100%;
+      }
+    }
+    .content-nav {
+      ul {
+        flex-direction: column;
+        li {
+        }
+      }
+    }
+    .content {
+      flex-wrap: wrap;
+    }
+  }
+  .skills {
+    justify-content: space-around;
+  }
+  .projects {
+    flex-direction: column;
+    img {
+      width: 100%;
+    }
+  }
+}
