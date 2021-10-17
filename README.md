@@ -14,4 +14,4 @@ In this app I have used sass, bootstrap for styling and routing, fontawesome for
 
 ### Resume page
 
-![image info](./src/picture/portfolio1.png)
+![image info](./src/picture/portfolio.png)
