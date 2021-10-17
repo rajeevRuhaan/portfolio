@@ -22,7 +22,7 @@ const SocialWebAppPage = () => {
             <a
               href="https://github.com/rajeevRuhaan/Social-App-Summer-BC"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noreferrer"
             >
               Repo
             </a>
@@ -32,7 +32,7 @@ const SocialWebAppPage = () => {
             <a
               href="https://devnet-bc.herokuapp.com/"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noreferrer"
             >
               Live site
             </a>

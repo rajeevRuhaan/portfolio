@@ -23,6 +23,7 @@ const RecipePage = () => {
             <a
               href="https://github.com/rajeevRuhaan/homerecipe"
               target="_blank"
+              rel="noreferrer"
             >
               Repo for frontend
             </a>
@@ -31,12 +32,17 @@ const RecipePage = () => {
             <a
               href="https://github.com/rajeevRuhaan/symfony-recipe-backend"
               target="_blank"
+              rel="noreferrer"
             >
               Repo for backend
             </a>
           </li>
           <li>
-            <a href="https://happy-kilby-4009e8.netlify.app/" target="_blank">
+            <a
+              href="https://happy-kilby-4009e8.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
               Live site
             </a>
           </li>
@@ -44,7 +50,7 @@ const RecipePage = () => {
       </nav>
       <body>
         <div className="image">
-          <img src={Recipe1} alt="recipe image" />
+          <img src={Recipe1} alt="recipe home" />
         </div>
         <section>
           <div className="content">

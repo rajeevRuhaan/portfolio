@@ -20,7 +20,7 @@ const RockShopPage = () => {
             <a
               href="https://github.com/rajeevRuhaan/Rock-Shop"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noreferrer"
             >
               Repo
             </a>
@@ -30,7 +30,7 @@ const RockShopPage = () => {
             <a
               href="https://sharp-swartz-f35205.netlify.app/"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noreferrer"
             >
               Live site
             </a>

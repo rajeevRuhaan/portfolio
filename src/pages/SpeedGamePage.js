@@ -22,7 +22,7 @@ const SpeedGamePage = () => {
             <a
               href="https://github.com/rajeevRuhaan/Rajeev_react21_javaScript/tree/master/Task5_speedTest"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noreferrer"
             >
               Repo (JavaScript speedgame)
             </a>
@@ -31,7 +31,7 @@ const SpeedGamePage = () => {
             <a
               href="https://github.com/rajeevRuhaan/React21K_react_lesson/tree/master/speedgame"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noreferrer"
             >
               Repo (React speedgame)
             </a>
@@ -40,7 +40,7 @@ const SpeedGamePage = () => {
             <a
               href="https://public.bc.fi/s2100155/Task5_speedTest/"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noreferrer"
             >
               Live site (JavaScript)
             </a>
