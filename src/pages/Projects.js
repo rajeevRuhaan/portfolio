@@ -48,11 +48,13 @@ const Projects = () => {
                   their posts and the others'.
                 </p>
               </div>
-              <Link href="/socialWebAppPage">
-                <button class="w3-button w3-block w3-dark-grey">
-                  Click to see project
-                </button>
-              </Link>
+              <LinkContainer to="/socialWebAppPage">
+                <Link>
+                  <button class="w3-button w3-block w3-dark-grey">
+                    Click to see project
+                  </button>
+                </Link>
+              </LinkContainer>
             </div>
           </div>
           <div className="w3-col ">
@@ -67,11 +69,13 @@ const Projects = () => {
                   displayed and can add to cart. JSON server used for backend
                 </p>
               </div>
-              <Link href="/rockShopPage">
-                <button class="w3-button w3-block w3-dark-grey">
-                  Click to see project
-                </button>
-              </Link>
+              <LinkContainer to="/rockShopPage">
+                <Link>
+                  <button class="w3-button w3-block w3-dark-grey">
+                    Click to see project
+                  </button>
+                </Link>
+              </LinkContainer>
             </div>
           </div>
           <div className="w3-col ">
@@ -83,11 +87,13 @@ const Projects = () => {
                 <hr />
                 <p>This is simple game app made with JavaScript.</p>
               </div>
-              <Link href="/speedgamepage">
-                <button class="w3-button w3-block w3-dark-grey">
-                  Click to see project
-                </button>
-              </Link>
+              <LinkContainer to="/speedgamepage">
+                <Link>
+                  <button class="w3-button w3-block w3-dark-grey">
+                    Click to see project
+                  </button>
+                </Link>
+              </LinkContainer>
             </div>
           </div>
           {/* column */}

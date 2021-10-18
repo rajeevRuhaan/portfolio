@@ -1,6 +1,7 @@
 import React from "react";
 import Rajeev from "../picture/raj.jpg";
 import Card from "react-bootstrap/Card";
+import { LinkContainer } from "react-router-bootstrap";
 
 const Main = () => {
   return (
@@ -42,64 +43,72 @@ const Main = () => {
         <div className="box card">
           <Card style={{ width: "18rem" }}>
             <Card.Body>
-              <Card.Link href="/recipepage">
-                <Card.Title>Recipe Book</Card.Title>
-                <Card.Text>
-                  Recipe book web app built with React and Symfony. This is
-                  school project created while learning React and Symfony.
-                </Card.Text>
-                <em style={{ color: "chocolate" }}>
-                  {" "}
-                  <b>Click to See Project </b>
-                </em>
-              </Card.Link>
+              <LinkContainer to="/recipepage">
+                <Card.Link>
+                  <Card.Title>Recipe Book</Card.Title>
+                  <Card.Text>
+                    Recipe book web app built with React and Symfony. This is
+                    school project created while learning React and Symfony.
+                  </Card.Text>
+                  <em style={{ color: "chocolate" }}>
+                    {" "}
+                    <b>Click to See Project </b>
+                  </em>
+                </Card.Link>
+              </LinkContainer>
             </Card.Body>
           </Card>
 
           <Card style={{ width: "18rem" }}>
             <Card.Body>
-              <Card.Link href="/socialWebAppPage">
-                <Card.Title>Simple Social Web Application</Card.Title>
-                <Card.Text>
-                  Simple web application where user can register and login to
-                  use the app. The user can also create, edit, delete, read
-                  their posts and the others'.
-                </Card.Text>
-                <em style={{ color: "chocolate" }}>
-                  {" "}
-                  <b>Click to See Project </b>
-                </em>
-              </Card.Link>
+              <LinkContainer to="/socialWebAppPage">
+                <Card.Link>
+                  <Card.Title>Simple Social Web Application</Card.Title>
+                  <Card.Text>
+                    Simple web application where user can register and login to
+                    use the app. The user can also create, edit, delete, read
+                    their posts and the others'.
+                  </Card.Text>
+                  <em style={{ color: "chocolate" }}>
+                    {" "}
+                    <b>Click to See Project </b>
+                  </em>
+                </Card.Link>
+              </LinkContainer>
             </Card.Body>
           </Card>
 
           <Card style={{ width: "18rem" }}>
             <Card.Body>
-              <Card.Link href="/rockShopPage">
-                <Card.Title>Rock Shop</Card.Title>
-                <Card.Text>
-                  This app is designed as e-commerce page. The products
-                  displayed and can add to cart. JSON server used for backend
-                </Card.Text>
-                <em style={{ color: "chocolate" }}>
-                  {" "}
-                  <b>Click to See Project </b>
-                </em>
-              </Card.Link>
+              <LinkContainer to="/rockShopPage">
+                <Card.Link>
+                  <Card.Title>Rock Shop</Card.Title>
+                  <Card.Text>
+                    This app is designed as e-commerce page. The products
+                    displayed and can add to cart. JSON server used for backend
+                  </Card.Text>
+                  <em style={{ color: "chocolate" }}>
+                    {" "}
+                    <b>Click to See Project </b>
+                  </em>
+                </Card.Link>
+              </LinkContainer>
             </Card.Body>
           </Card>
           <Card style={{ width: "18rem" }}>
             <Card.Body>
-              <Card.Link href="/speedgamepage">
-                <Card.Title>Speed Game</Card.Title>
-                <Card.Text>
-                  This is simple game app made with JavaScript.
-                </Card.Text>
-                <em style={{ color: "chocolate" }}>
-                  {" "}
-                  <b>Click to See Project </b>
-                </em>
-              </Card.Link>
+              <LinkContainer to="/speedgamepage">
+                <Card.Link>
+                  <Card.Title>Speed Game</Card.Title>
+                  <Card.Text>
+                    This is simple game app made with JavaScript.
+                  </Card.Text>
+                  <em style={{ color: "chocolate" }}>
+                    {" "}
+                    <b>Click to See Project </b>
+                  </em>
+                </Card.Link>
+              </LinkContainer>
             </Card.Body>
           </Card>
         </div>
