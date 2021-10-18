@@ -1,6 +1,7 @@
 import React from "react";
 import processdesign from "../picture/process-design.png";
 import mekongriver from "../picture/mekong-river.png";
+import { LinkContainer } from "react-router-bootstrap";
 
 import Link from "react-bootstrap/NavLink";
 import Footer from "../components/Footer";
@@ -25,11 +26,13 @@ const Projects = () => {
                   school project created while learning React and Symfony.
                 </p>
               </div>
-              <Link href="/recipepage">
-                <button class="w3-button w3-block w3-dark-grey">
-                  Click to see project
-                </button>
-              </Link>
+              <LinkContainer to="/recipepage">
+                <Link>
+                  <button class="w3-button w3-block w3-dark-grey">
+                    Click to see project
+                  </button>
+                </Link>
+              </LinkContainer>
             </div>
           </div>
           <div className="w3-col ">
