@@ -165,7 +165,11 @@ const Projects = () => {
               </header>
               <div class="w3-container">
                 <hr />
-                <img src={processdesign} alt="process-design" />
+                <img
+                  src={processdesign}
+                  alt="process-design"
+                  style={{ width: "80%" }}
+                />
                 <hr />
                 <p>
                   This is my master thesis. The work was to develop laboratory
@@ -194,7 +198,11 @@ const Projects = () => {
               </header>
               <div class="w3-container">
                 <hr />
-                <img src={mekongriver} alt="mekong river" />
+                <img
+                  src={mekongriver}
+                  alt="mekong river"
+                  style={{ width: "70%" }}
+                />
                 <hr />
                 <p>
                   This is my bachelor thesis. The mathematical flood model was

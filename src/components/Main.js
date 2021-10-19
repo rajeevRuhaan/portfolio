@@ -63,7 +63,7 @@ const Main = () => {
             <Card.Body>
               <LinkContainer to="/socialWebAppPage">
                 <Card.Link>
-                  <Card.Title>Simple Social Web Application</Card.Title>
+                  <Card.Title>Simple Social Web App</Card.Title>
                   <Card.Text>
                     Simple web application where user can register and login to
                     use the app. The user can also create, edit, delete, read

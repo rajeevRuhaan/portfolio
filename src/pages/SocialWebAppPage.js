@@ -6,7 +6,7 @@ import SocialWebApp1 from "../picture/socialWebApp1.png";
 const SocialWebAppPage = () => {
   return (
     <div className="page">
-      <h1>Recipe Book</h1>
+      <h1>Simple Social Web App</h1>
       <nav className="content-nav">
         <ul>
           <li>
@@ -40,7 +40,6 @@ const SocialWebAppPage = () => {
         </ul>
       </nav>
       <body>
-        <h3>Social Web App</h3>
         <div className="image">
           <img src={SocialWebApp2} alt="socialWebApp" />
         </div>

@@ -1,10 +1,12 @@
 import React from "react";
+import rockshop1 from "../picture/rockshop1.png";
+import rockshop2 from "../picture/rockshop2.png";
 import Footer from "../components/Footer";
 
 const RockShopPage = () => {
   return (
     <div className="page">
-      <h1>Recipe Book</h1>
+      <h1>Rock Shop</h1>
       <nav className="content-nav">
         <ul>
           <li>
@@ -38,9 +40,8 @@ const RockShopPage = () => {
         </ul>
       </nav>
       <body>
-        <h3>Social Web App</h3>
         <div className="image">
-          {/* <img src={SocialWebApp2} alt="socialWebApp" /> */}
+          <img src={rockshop1} alt="rockshop page" />
         </div>
         <section>
           <div className="content">
@@ -49,16 +50,17 @@ const RockShopPage = () => {
             <div>
               <h2>Summary</h2>
               <p>
-                This is a small I collaborated with 3 other students to create a
-                simple web application where user can register and login to use
-                the app. The user can also create, edit, delete, read their
-                posts and the others'. Users can also post images, like and
-                unlike each other post.
+                This is an ecommerce page and was created using react, redux
+                (frontend) and json server (backend) for study purpose. Redux
+                used to study manage state. The site is perform adding projuct
+                to cart and deleting product from cart. I use json server for
+                backend testing. The web pae is not performing adding and
+                deleting because json server is not performing well when we
+                deploy at netlify.
               </p>
               <h2>Web Stack</h2>
               <p>
-                This app is based on MERN (Mongo, Express, React and Node js)
-                stack.
+                This app is based React, Reduc, Json server, Sass and bootstrap.
               </p>
             </div>
           </div>
@@ -68,20 +70,27 @@ const RockShopPage = () => {
             <div>
               <h3>Design</h3>
               <p>
-                We are in a group first design our app in figma and then start
-                coading part.{" "}
+                {" "}
+                I have created a home page where we can see three category of
+                products. It is linked to product page. I use a basic ecommerce
+                page where products are listed. To buy product first we need to
+                view product which open in new page. From single product page we
+                can add the product to cart or can back to product list page.
+                Once product get added to cart it can also be deleted from cart
+                which we can perform in cart page. currently add and delete is
+                not working due to json serve which is not functionally at
+                netlify.{" "}
               </p>
               <h3>Development</h3>
               <p>
-                This app was created in purpose to develop further for Demo
-                project. We were planing to add more functanility. The
-                development was stoped and didnot proceed further for
-                development.
+                At the moment the page looks ugly and didnot get time to make it
+                prettier. In future I will make it functionally by changing json
+                server to node.js.
               </p>
             </div>
           </div>
           <div className="image">
-            {/* <img src={SocialWebApp1} alt="socialWebApp2" /> */}
+            <img src={rockshop2} alt="rock shopp roduct list page" />
           </div>
           <div className="content">
             <h1 id="result">Result </h1>
@@ -89,9 +98,9 @@ const RockShopPage = () => {
               <h3>What I learned?</h3>
               <p>
                 {" "}
-                During this app designing I was not familier with Redux. I come
-                across with Redux during this project. I was mianly involved
-                with react (frontend part){" "}
+                In this project I was more focusing to learn redux. I was
+                familier of making app using react but this is my first app
+                using redux.{" "}
               </p>
             </div>
           </div>
