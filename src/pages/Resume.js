@@ -286,7 +286,7 @@ const Resume = () => {
                 <h5 class="w3-opacity">
                   <b>
                     Bachelor of Science, Helsinki Metroloplia University of
-                    Applied Science, Vantaa, FinlandLondon Business School
+                    Applied Science, Vantaa, Finland
                   </b>
                 </h5>
                 <h6 class="w3-text-teal">
