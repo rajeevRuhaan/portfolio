@@ -42,10 +42,16 @@ body {
       flex-flow: row wrap;
       justify-content: space-around;
       align-items: center;
+      flex-grow: 1;
+      padding: 4rem 0;
+      margin: 1rem;
 
       a {
         color: black;
       }
+    }
+    .card:hover {
+      background-color: darkgrey;
     }
   }
   .contactme {
