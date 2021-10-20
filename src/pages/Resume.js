@@ -21,7 +21,7 @@ const Resume = () => {
               <div className="w3-container">
                 <p>
                   <i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>
-                  Web Application Developer
+                  Web Application Developer / Environmental Engineer
                 </p>
                 <p>
                   <i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>
