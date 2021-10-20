@@ -120,7 +120,7 @@ const Main = () => {
           <p>
             I would love to join projects. Feel free to contact me by sending
             e-mail at{" "}
-            <a href="mailto:rajeev.jkp@gmail.com">rajeev.jkp@gmail.com</a>{" "}
+            <a href="mailto:urrajivin@hotmail.com">urrajivin@hotmail.com</a>{" "}
           </p>
         </p>
       </section>

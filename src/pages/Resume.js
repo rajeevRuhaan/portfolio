@@ -29,14 +29,9 @@ const Resume = () => {
                 </p>
                 <p>
                   <i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>
-
-                  <a href="mailto:rajeev.sah@edu.bc.fi">rajeev.sah@edu.bc.fi</a>
-
-                  <p style={{ marginLeft: "2.5rem" }}>
-                    <a href="mailto:urrajivin@hotmail.com">
-                      urrajivin@hotmail.com
-                    </a>
-                  </p>
+                  <a href="mailto:urrajivin@hotmail.com">
+                    urrajivin@hotmail.com
+                  </a>
                 </p>
                 <p>
                   <i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>
