@@ -41,7 +41,7 @@ const Main = () => {
       <section className="box">
         <h2>School Projects</h2>
         <div className="box card">
-          <Card style={{ width: "18rem" }}>
+          <Card style={{ width: "18rem", height: "fit" }}>
             <Card.Body>
               <LinkContainer to="/recipepage">
                 <Card.Link>
