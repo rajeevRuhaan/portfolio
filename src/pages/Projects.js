@@ -5,6 +5,7 @@ import { LinkContainer } from "react-router-bootstrap";
 
 import Link from "react-bootstrap/NavLink";
 import Footer from "../components/Footer";
+import rangeslider from "../picture/rangeslider.png";
 
 const Projects = () => {
   return (
@@ -107,14 +108,33 @@ const Projects = () => {
           <div className="w3-col">
             <div class="w3-card-4 w3-padding w3-margin w3-hover-grey">
               <header class="w3-container w3-light-grey">
-                <h3>Rajeev Sah</h3>
+                <h3>Range Slider</h3>
+                <a
+                  href="https://github.com/rajeevRuhaan/RangeSlider"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fa fa-github w3-hover-opacity w3-padding w3-medium">
+                    {" "}
+                    Github Link
+                  </i>
+                </a>
               </header>
               <div class="w3-container">
                 <hr />
-                <p>Comming...</p>
+                <img
+                  src={rangeslider}
+                  style={{ width: "400px", height: "150px" }}
+                />
               </div>
               <button class="w3-button w3-block w3-dark-grey">
-                Click to see project
+                <a
+                  href="https://rajeevruhaan.github.io/RangeSlider/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Link for the project
+                </a>
               </button>
             </div>
           </div>
