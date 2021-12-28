@@ -155,8 +155,7 @@ const Projects = () => {
               </div>
               <button class="w3-button w3-block w3-dark-grey">
                 <a
-                  href="https://zealous-mins
-                  ky-cf0dc8.netlify.app/"
+                  href="https://zealous-minsky-cf0dc8.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
