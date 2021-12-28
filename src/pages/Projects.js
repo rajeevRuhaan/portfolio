@@ -125,6 +125,7 @@ const Projects = () => {
                 <img
                   src={rangeslider}
                   style={{ width: "400px", height: "150px" }}
+                  alt="rangeslider shows in/out pannel"
                 />
               </div>
               <button class="w3-button w3-block w3-dark-grey">
