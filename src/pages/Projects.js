@@ -6,6 +6,7 @@ import { LinkContainer } from "react-router-bootstrap";
 import Link from "react-bootstrap/NavLink";
 import Footer from "../components/Footer";
 import rangeslider from "../picture/rangeslider.png";
+import jsonAPI from "../picture/jsonAPI.png";
 
 const Projects = () => {
   return (
@@ -146,10 +147,21 @@ const Projects = () => {
               </header>
               <div class="w3-container">
                 <hr />
-                <p>Comming...</p>
+                <img
+                  src={jsonAPI}
+                  style={{ width: "400px", height: "150px" }}
+                  alt="jsonAPI dashboard"
+                />
               </div>
               <button class="w3-button w3-block w3-dark-grey">
-                Click to see project
+                <a
+                  href="https://zealous-mins
+                  ky-cf0dc8.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Link for the project
+                </a>
               </button>
             </div>
           </div>
